@@ -24,3 +24,4 @@ set colorcolumn=80,100
 set nu
 set ruler
 syntax on
+set mouse=a
