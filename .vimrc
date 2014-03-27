@@ -11,12 +11,20 @@ Bundle 'ervandew/supertab'
 " BufExplorer
 Bundle 'bufexplorer.zip'
 
-" Fuzzy file selection.
-Bundle 'wincent/Command-T'
+" Command-T
+" Bundle 'wincent/Command-T'
 
-" https://github.com/bling/vim-airline
-Bundle 'bling/vim-airline'
-set laststatus=2
+" Airline
+" Bundle 'bling/vim-airline'
+" set laststatus=2
+
+" NERDTree
+Bundle 'scrooloose/nerdtree'
+let g:NERDTreeWinSize=64
+map <silent> <C-m> :NERDTreeFocus<CR>
+
+" Multiple cursors
+Bundle 'terryma/vim-multiple-cursors'
 
 " Basic setup
 filetype plugin indent on
@@ -30,3 +38,6 @@ set ruler
 set title
 set undolevels=1000
 syntax on
+
+" Toggle search result highlighting.
+:noremap <F4> :set hlsearch! hlsearch?<CR>
