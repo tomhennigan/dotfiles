@@ -21,7 +21,12 @@ set laststatus=2
 " Basic setup
 filetype plugin indent on
 set colorcolumn=80,100
+set hidden
+set history=1000
+set mouse=a
+set nowrap
 set nu
 set ruler
+set title
+set undolevels=1000
 syntax on
-set mouse=a
