@@ -1,6 +1,8 @@
-" Vundle
 set nocompatible
 filetype off
+let mapleader = ","
+
+" Vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Plugin 'gmarik/vundle'
