@@ -14,6 +14,12 @@ Bundle 'ervandew/supertab'
 Bundle 'bufexplorer.zip'
 
 " Command-T
+set wildignore+=*/blaze-*/*
+set wildignore+=*/magicjar/*
+set wildignore+=*.class
+Bundle 'kien/ctrlp.vim'
+
+" Command-T
 " Bundle 'wincent/Command-T'
 
 " Airline
