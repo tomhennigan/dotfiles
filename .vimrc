@@ -17,8 +17,8 @@ Bundle 'bufexplorer.zip'
 " Bundle 'wincent/Command-T'
 
 " Airline
-" Bundle 'bling/vim-airline'
-" set laststatus=2
+Bundle 'bling/vim-airline'
+set laststatus=2
 
 " NERDTree
 Bundle 'scrooloose/nerdtree'
