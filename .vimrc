@@ -46,6 +46,7 @@ set ruler
 set title
 set undolevels=1000
 syntax on
+set hlsearch
 
 " Toggle search result highlighting.
-:noremap <F4> :set hlsearch! hlsearch?<CR>
+noremap <F4> :set hlsearch! hlsearch?<CR>
