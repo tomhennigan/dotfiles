@@ -34,6 +34,9 @@ Bundle 'airblade/vim-gitgutter'
 " Multiple cursors
 Bundle 'terryma/vim-multiple-cursors'
 
+" Allows lines to be swapped using M-{up,down}.
+source ~/.vim/plugin/swap_lines.vim
+
 " Basic setup
 filetype plugin indent on
 set colorcolumn=80,100
