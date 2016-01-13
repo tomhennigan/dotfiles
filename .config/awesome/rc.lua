@@ -101,6 +101,8 @@ myawesomemenu = {
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "Debian", debian.menu.Debian_menu.Debian },
+                                    { "lock screen", "gnome-screensaver-command --lock" },
+                                    { "screenshot", "gnome-screenshot -i" },
                                     { "open terminal", terminal }
                                   }
                         })
