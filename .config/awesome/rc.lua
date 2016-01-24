@@ -103,6 +103,7 @@ mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesom
                                     { "Debian", debian.menu.Debian_menu.Debian },
                                     { "lock screen", "gnome-screensaver-command --lock" },
                                     { "screenshot", "gnome-screenshot -i" },
+                                    { "toggle touchpad", "sh -c 'synclient | grep TouchpadOff | grep -q 0 && synclient TouchpadOff=1 || synclient TouchpadOff=0'" },
                                     { "open terminal", terminal }
                                   }
                         })
