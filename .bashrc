@@ -5,7 +5,7 @@ export HISTFILESIZE=10000000
 shopt -s histappend
 
 # {2016-02-21 06:22:04 ~} $ 
-export PS1="\[$(tput bold)\]{\D{%F %T} \w} $\[$(tput sgr0)\] "
+export PS1="\[$(tput bold)\]{\D{%F %T} \u@\H \w} $\[$(tput sgr0)\] "
 
 # Color prompt.
 export CLICOLOR=1
