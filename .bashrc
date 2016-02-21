@@ -7,7 +7,15 @@ shopt -s histappend
 # {2016-02-21 06:22:04 ~} $ 
 export PS1="\[$(tput bold)\]{\D{%F %T} \w} $\[$(tput sgr0)\] "
 
-alias ls='ls --color=auto'
+# Color prompt.
+export CLICOLOR=1
+
+# Ls colors.
+if [[ "$(uname)" == "Darwin" ]]; then
+  export LSCOLORS=ExFxCxDxBxegedabagacad
+else
+  alias ls='ls --color=auto'
+fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
